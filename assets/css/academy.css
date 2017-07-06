@@ -25,6 +25,7 @@ summary {
           box-sizing: border-box;
 }
 a h2:hover {color:inherit;}
+img {max-width: 100%;}
 /* Header */
 .topbar {min-height: 28px; }
 .Top-Bar__contacts {
@@ -155,6 +156,7 @@ a h2:hover {color:inherit;}
 .daily-report img {width:inherit; height:auto; display:block; margin-left:auto; margin-right:auto; margin-top:30px;}
 .daily-report ul {list-style-type: none; margin:0; padding:0;}
 .daily-report ul li {margin-left:0px; padding:0px; width:100%;}
+.separator-line-lg {margin-top: 30px;margin-bottom: 30px}
 /* Social */
 .Social { margin-top:-5px; margin-bottom:20px; text-align:right; }
 .Social h5 {font-weight:400;margin-bottom:0; font-size:14px;}
@@ -206,3 +208,6 @@ a h2:hover {color:inherit;}
 .button {display:inline-table;margin-bottom:5px;}
 .cta-lg {text-align: center; padding: 0 30px; margin-bottom: 40px;}
 .cta-lg img {text-align: center !important;}
+/* V2 */
+.home-contributor {text-align: left;}
+.home-contributor img {width: 80px; float: left; margin: 5px 15px 0px 0; padding: 5px; border: 1px solid #F2F2F2}
