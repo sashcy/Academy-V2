@@ -6,27 +6,14 @@ language: en
 tag: main
 ---
 <p>Join us in exploring the digital currencies that are changing how industries across the world are doing business.</p>
-<div class="row list--item">
-	<div class="col-sm">
-		<div class="Page-List__item__excerpt">					   
-			<a class="Page-List__item__heading" href=""><h2>What are cryptocurrencies?</h2></a>		
-			<p>Learn more about cryptocurrencies such as Bitcoin and Ethereum.</p>
-		</div>
-	</div>	
-</div>
-<div class="row list--item">
-	<div class="col-sm">
-		<div class="Page-List__item__excerpt">					   
-			<a class="Page-List__item__heading" href=""><h2>How to deposit and withdraw from your Binary.com account using Bitcoin</h2></a>		
-			<p>We offer a wide range of payment methods for deposits and withdrawals, including Bitcoin.</p>
-		</div>
-	</div>	
-</div>
-<div class="row list--item">
-	<div class="col-sm">
-		<div class="Page-List__item__excerpt">					   
-			<a class="Page-List__item__heading" href=""><h2>How to trade cryptocurrencies on MT5</h2></a>		
-			<p>We show you what you need to do to trade the full range of cryptocurrency instruments we offer, including BTC/USD and ETH/USD.</p>
-		</div>
-	</div>	
-</div>
+{% assign engPosts = site.posts | where: "language", "en" %}
+{% for post in engPosts %} 
+	{% if post.tag == "cryptocurrency" %}
+	<div class="row list--item">
+		<div class="col-sm">
+			<a class="Page-List__item__title" href="{{ post.url | relative_url }}"><h2>{{ post.title }}</h2></a>
+			<p>{{ post.excerpt }}</p>	
+		</div>		
+	</div>
+	{% endif %}
+{% endfor %}	

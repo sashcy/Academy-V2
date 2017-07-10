@@ -126,6 +126,11 @@ img {max-width: 100%;}
 .Blog-Sidebar__recent-posts ul {list-style-type: none; }
 .Blog-Sidebar__recent-posts ul li { border-bottom:0px solid #ccc; margin-left:15px; padding:5px 0px; }
 .Blog-Sidebar__recent-posts ul li  a{}
+
+.sidebar-left {margin: 0;}
+.sidebar-left ul {margin:0; padding:0;}
+
+
 /* Footer */
 .Footer {display:table; width:100%; margin-top:50px;}
 .Footer  a{color:#fff;}
