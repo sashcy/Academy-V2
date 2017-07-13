@@ -216,3 +216,18 @@ img {max-width: 100%;}
 /* V2 */
 .home-contributor {text-align: left;}
 .home-contributor img {width: 80px; float: left; margin: 5px 15px 0px 0; padding: 5px; border: 1px solid #F2F2F2}
+
+.icon-md {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px; 
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.icon-news {background: url(../icons/wn_icon.svg);}
+.icon-cryptocurrency {background: url(../icons/ctc_icon.svg);}
+.icon-analysis {background: url(../icons/waa_icon.svg);}
+.icon-webinars {background: url(../icons/w_icon.svg);}
+.icon-videos {background: url(../icons/c_icon.svg);}
+.icon-learningcenter {background: url(../icons/lc_icon.svg);}
