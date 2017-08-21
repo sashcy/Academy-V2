@@ -1,19 +1,40 @@
 ---
-layout: page
+layout: page-no-sidebar
 title: Cryptocurrencies
 permalink: /en/cryptocurrencies/
 language: en
 tag: main
 ---
-<p>Join us in exploring the digital currencies that are changing how industries across the world are doing business.</p>
-{% assign engPosts = site.posts | where: "language", "en" %}
-{% for post in engPosts %} 
-	{% if post.tag == "cryptocurrency" %}
-	<div class="row list--item">
-		<div class="col-sm">
-			<a class="Page-List__item__title" href="{{ post.url | relative_url }}"><h2>{{ post.title }}</h2></a>
-			<p>{{ post.excerpt }}</p>	
+<p class="center-text">Join us in exploring the digital currencies that are changing how industries across the world are doing business.</p>
+<div class="container binary--section center-text">
+	<div class="row">	
+		<div class="col-md">
+			<a href="{{domain}}/ebooks/What-are-cryptocurrencies.pdf"><h2>What are cryptocurrencies?</h2></a>
+			<p>Introduction to cryptocurrencies, their similarities and differences, as well as practical real-world applications</p>
+			<p><a href="{{ "/ebooks/What-are-cryptocurrencies.pdf" | prepend: domain }}" class="button"><span>Download</span></a></p>			
+		</div>
+		<div class="col-md">
+			<a href=""><h2>What is a blockchain and how does it work</h2></a>
+			<p>Download free ebooks and guides on Forex trading, financial market analysis, and more.</p>				
+		</div>
+		<div class="col-md">
+			<a href=""><h2>Training videos</h2></a>
+			<p>Enhance your trading skills and knowledge through our video tutorials, walkthroughs, and more.</p>				
 		</div>		
 	</div>
-	{% endif %}
-{% endfor %}	
+	<div class="separator-line-lg"></div>
+	<div class="row">
+		<div class="col-md">
+			<a href=""><h2>Glossary</h2></a>
+			<p>Not sure what a certain trading term means? Find a simple explanation here.</p>				
+		</div>
+		<div class="col-md">
+			<a href=""><h2>FAQ</h2></a>
+			<p>Get answers to your most pressing questions.</p>				
+		</div>
+		<div class="col-md">
+			<a href=""><h2>Security tips</h2></a>
+			<p>Here at Binary.com, we take that extra step to protect you. Read our tips on securing your data and staying safe online.</p>				
+		</div>
+	</div>
+</div>
