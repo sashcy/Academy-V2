@@ -235,3 +235,5 @@ img {max-width: 100%;}
 .icon-webinars {background: url(../icons/w_icon.svg);}
 .icon-videos {background: url(../icons/v_icon.svg);}
 .icon-learningcenter {background: url(../icons/lc_icon.svg);}
+
+.webinar-date {padding-top: 5px;}
