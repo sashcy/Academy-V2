@@ -1,9 +1,3 @@
-{% assign coresource = site.github.url %}
-{% if coresource contains "localhost" %}{% assign domain = site.url %}
-{% elsif coresource contains "https" %}{% assign domain = site.github.url %}
-{% else %}
-{% assign domain = site.github.url | replace: 'http', 'https' %}
-{% endif %}
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
