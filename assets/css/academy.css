@@ -237,14 +237,29 @@ img {max-width: 100%;}
 .icon-learningcenter {background: url(../icons/lc_icon.svg);}
 
 .webinar-date {padding-top: 5px;}
-.eq-box2 {min-height: 250px;}
-.eq-box2 .button {display: block; position: absolute; bottom: 0; left: 15px; margin-top: 20px;}
+.eq-box {}
+.eq-box h2 {margin-bottom: -20px !important;}
 .separator-lg {
-    height: 20px
+    height: 30px
+}
+.separator-xl {
+    height: 80px
 }
 .separator-line-thin-gray {
     height: 1px; 
 	background-color: #DEDEDE;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.ft-700 {font-weight: 700;}
+.circle2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #e98024;
+	margin: auto;
+	margin-bottom: -10px;
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
 }
