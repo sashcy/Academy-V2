@@ -237,8 +237,18 @@ img {max-width: 100%;}
 .icon-learningcenter {background: url(../icons/lc_icon.svg);}
 
 .webinar-date {padding-top: 5px;}
-.eq-box {}
-.eq-box h2 {margin-bottom: -20px !important;}
+.list--box {
+	background-color: #f2f2f2;
+	min-height: 280px;
+	padding: 20px;
+	position: relative;
+}
+.list--box .box-button {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
 .separator-lg {
     height: 30px
 }
