@@ -249,6 +249,22 @@ img {max-width: 100%;}
 	left: 0;
 	right: 0;
 }
+@media only screen and (max-width : 990px) {
+	.list--box {		
+		min-height: 340px;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.list--box {		
+		margin: 20px 0;
+		min-height: 280px;
+	}
+}
+@media only screen and (max-width : 380px) {
+	.list--box {		
+		min-height: 340px;
+	}
+}
 .separator-lg {
     height: 30px
 }
