@@ -238,33 +238,41 @@ img {max-width: 100%;}
 
 .webinar-date {padding-top: 5px;}
 .list--box {
-	background-color: #f2f2f2;
-	min-height: 340px;
+	background-color: #f2f2f2;	
 	padding: 20px;
 	position: relative;
 }
+.list--box h2 {
+		min-height: 0px;
+	}
+@media only screen and (max-width : 768px) {
+	.list--box {		
+		margin: 15px 0;
+	}
+	.separator-lg {
+		display: none;
+	}
+}
+.list--box-content {
+	min-height: 90px;
+	display: block;
+}
+@media only screen and (min-width : 992px ) {
+	.list--box h2 {
+		min-height: 0px;
+	}
+}
+	
+
 .list--box .box-button {
 	position: absolute;
 	bottom: 20px;
 	left: 0;
 	right: 0;
 }
-@media only screen and (max-width : 990px) {
-	.list--box {		
-		min-height: 340px;
-	}
-}
-@media only screen and (max-width : 768px) {
-	.list--box {		
-		margin: 20px 0;
-		min-height: 280px;
-	}
-}
-@media only screen and (max-width : 380px) {
-	.list--box {		
-		min-height: 380px;
-	}
-}
+
+
+
 .separator-lg {
     height: 30px
 }
@@ -373,13 +381,13 @@ img {max-width: 100%;}
 }
 .top-border {border-top: 2px solid #f2f2f2;}
 
+.block-element {display: block;}
 
 
 
 
 
-
-
+/*
 .led__grid-wrap {overflow: hidden; margin: -10px -10px;}
 .led__grid-wrap p{margin: 10px 10px;}
 .led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 33%;}
@@ -401,4 +409,25 @@ img {max-width: 100%;}
 @media only screen and (max-width : 480px) {
 .led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
 }
+*/
 
+.led__grid-wrap {overflow: hidden; margin: -10px -10px;}
+.led__grid-wrap p{margin: 10px 10px;}
+.led__grid-wrap__box {float: left;  position: relative; width: 33.3%; padding-bottom: 40%;}
+.led__grid-wrap__box__boxInner {position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; padding:0px; text-align:left; background:#f2f2f2; background-repeat:no-repeat; background-size:cover; background-position:center;}
+.led__grid-wrap__box__boxInner:hover {}
+.led__grid-wrap__box__boxInner__title {position:absolute; top:0px;left:0;right:0;padding:20px;}
+.led__grid-wrap__box__boxInner__vendor {display:block; float:left;position:absolute;bottom:5px;left:5px; right:5px; padding:0px; background:transparent; text-align:left;}
+.led__grid-wrap__box__boxInner__vendor img {max-width:60%; height:auto; margin:0 auto;}
+
+@media only screen and (max-width : 990px) {
+.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 50%;}
+}
+@media only screen and (max-width : 768px) {
+.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 70%;}
+}
+@media only screen and (max-width : 568px) {
+.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 80%;}
+}
+@media only screen and (max-width : 480px) {
+.led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
