@@ -237,39 +237,6 @@ img {max-width: 100%;}
 .icon-learningcenter {background: url(../icons/lc_icon.svg);}
 
 .webinar-date {padding-top: 5px;}
-.list--box {
-	background-color: #f2f2f2;	
-	padding: 20px;
-	position: relative;
-}
-.list--box h2 {
-		min-height: 0px;
-	}
-@media only screen and (max-width : 768px) {
-	.list--box {		
-		margin: 15px 0;
-	}
-	.separator-lg {
-		display: none;
-	}
-}
-.list--box-content {
-	min-height: 90px;
-	display: block;
-}
-@media only screen and (min-width : 992px ) {
-	.list--box h2 {
-		min-height: 0px;
-	}
-}
-	
-
-.list--box .box-button {
-	position: absolute;
-	bottom: 20px;
-	left: 0;
-	right: 0;
-}
 
 .separator-lg {
     height: 30px
@@ -289,6 +256,20 @@ img {max-width: 100%;}
 }
 .steps-content-box {
 	padding: 30px 0;	
+}
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #e98024;
+	margin: auto;
+	margin-top: -20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	border: 0px solid #ccc;
 }
 .circle2 {
 	width: 60px;
@@ -408,13 +389,13 @@ img {max-width: 100%;}
 .led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
 }
 */
-
+/* grid cryptocurrencies-grid / MT5 */
 .led__grid-wrap {overflow: hidden; margin: -10px -10px;}
 .led__grid-wrap p{margin: 10px 10px;}
 .led__grid-wrap__box {float: left;  position: relative; width: 33.3%; padding-bottom: 40%;}
-.led__grid-wrap__box__boxInner {position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; padding:0px; text-align:left; background:#f2f2f2; background-repeat:no-repeat; background-size:cover; background-position:center;}
+.led__grid-wrap__box__boxInner {position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; padding:0px; text-align:left; }
 .led__grid-wrap__box__boxInner:hover {}
-.led__grid-wrap__box__boxInner__title {position:absolute; top:0px;left:0;right:0;padding:20px;}
+.led__grid-wrap__box__boxInner__title {position:absolute; top:0px;left:0;right:0;padding:0 20px;}
 .led__grid-wrap__box__boxInner__vendor {display:block; float:left;position:absolute;bottom:5px;left:5px; right:5px; padding:0px; background:transparent; text-align:left;}
 .led__grid-wrap__box__boxInner__vendor img {max-width:60%; height:auto; margin:0 auto;}
 
@@ -429,3 +410,114 @@ img {max-width: 100%;}
 }
 @media only screen and (max-width : 480px) {
 .led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
+}
+/* MT5 2 */
+/*
+.list--box {
+	background-color: #f2f2f2;	
+	padding: 20px;
+	position: relative;
+}
+.list--box h2 {
+		min-height: 0px;
+	}
+@media only screen and (max-width : 768px) {
+	.list--box {		
+		margin: 15px 0;
+	}
+	.separator-lg {
+		display: none;
+	}
+}
+	.list--box-content {
+	min-height: 90px;
+	display: block;
+}
+@media only screen and (min-width : 992px ) {
+	.list--box h2 {
+		min-height: 0px;
+	}
+}
+	
+.list--box .box-button {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+*/
+/* cryptocurrencies-*/
+.list--box {	
+	padding: 40px 15px;
+}
+
+.list--box-title {
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	font-weight:300; 
+	font-size: 28px ; 
+	color: #E98024 ;
+	min-height: 120px;
+	margin: 0;
+}
+.list--box-content {
+	margin: 0;
+	min-height: 120px;
+}
+.list--box-content p {margin: 0;}	
+.list--box-cta {
+	min-height: 0px;
+	margin: 0;
+	padding-top: 20px;
+}
+.list--box-cta .button{
+	margin: 0;
+}
+@media (max-width: 768px) {
+	.list--box {margin: 15px 0;}
+    .list--box-content {min-height: 0px!important; margin:10px 0px;}
+	.list--box-title {min-height: 0px!important; margin:10px 0px;}
+	.mob-hidden {display: none;}
+}
+/* cryptocurrencies-2 */
+.boxx td {font-size: 18px; border: none; width: 50%; padding: 15px; text-align: center;  }
+td.boxx-title {font-size: 28px; background: #f2f2f2;}
+.div-table {display: table; width: 100%;}
+.div-table-row {display: table-row;}
+.div-table-row-cell {display: table-cell; margin: 10px!important; padding:10px; min-width: 50%; text-align: center; border: 1px solid #ccc;}
+.div-table-row-cell-content {margin: 0px; background: #f2f2f2;}
+
+
+
+.h2, .h2 a { 
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	font-weight:300; 
+	font-size: 28px ; 
+	color: #E98024 ;
+	Margin-bottom: 10px;
+}
+.h3 {
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	color: #2A3052;
+    font-size: 22px !important;
+    font-weight: 300;	
+}
+
+/* MT5 9 */
+/* cryptocurrencies-*/
+.list--box-tt {	
+	padding: 40px 0px;
+}
+
+.list--box-tt-title {
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	font-weight:300; 
+	font-size: 28px ; 
+	color: #E98024 ;
+	min-height: 110px;
+	margin: 0;
+}
+.list--box-tt-content {
+	margin: 0;
+	min-height: 190px;
+	padding: 15px;
+}
