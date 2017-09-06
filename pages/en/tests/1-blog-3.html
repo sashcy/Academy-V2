@@ -1,17 +1,18 @@
 ---
 layout: page-no-sidebar
 title: What's new?
-permalink: /en/news-2/
+permalink: /en/news-3/
 language: en
 tag: 
 ---
+
 <div class="row">
 {% assign engPosts = site.posts | where: "language", "en" %}
 {% for post in engPosts limit:10%}
 	<div class="col-md-4">
 		<div class="list--box border-bottom">
 			<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-			<a href="{{ post.url | relative_url }}"><div class="list--box-title h3">{{ post.title }}</div></a>
+			<a href=""><div class="list--box-title h3 secondary-color">{{ post.title }}</div></a>
 			<div class="list--box-content-blog">
 				<p>{{ post.excerpt | truncatewords:20 }}</p>
 			</div>	
