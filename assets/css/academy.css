@@ -217,7 +217,14 @@ img {max-width: 100%;}
 /* V2 */
 .home-contributor {text-align: left;}
 .home-contributor img {width: 80px; float: left; margin: 5px 15px 0px 0; padding: 5px; border: 1px solid #F2F2F2}
-
+.icon-sm {
+	margin-left: auto;
+	margin-right: auto;
+	width: 64px; 
+	height: 64px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .icon-md {
 	margin-left: auto;
 	margin-right: auto;
