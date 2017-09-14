@@ -484,7 +484,7 @@ img {max-width: 100%;}
 .list--box-cta .button{
 	margin: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 	.list--box {margin: 15px 0;}
     .list--box-content {min-height: 0px!important; margin:10px 0px;}
 	.list--box-title {min-height: 0px!important; margin:10px 0px;}
@@ -544,7 +544,7 @@ td.boxx-title {font-size: 28px; background: #f2f2f2;}
 	font-weight:300; 
 	font-size: 28px ; 
 	color: #E98024 ;
-	min-height: 110px;
+	min-height: 80px;
 	margin: 0;
 }
 .list--box-tt-content {
@@ -588,6 +588,6 @@ td.boxx-title {font-size: 28px; background: #f2f2f2;}
     background-size: cover;
 	padding:40px 20px;
 	background-position: center;
-	text-align:center;
+	text-align: center;
 }
 .home--header-content {padding:50px 0;}
