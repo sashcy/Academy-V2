@@ -5,18 +5,20 @@ permalink: /en/news/
 language: en
 tag: main
 ---
-<div class="row">
-{% assign engPosts = site.posts | where: "language", "en" %}
-{% for post in engPosts limit:18%}
-	<div class="col-lg-4">
-		<div class="list--box border-bottom">
-			<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-			<div class="list--box-title-blog h3 secondary-color">{{ post.title }}</div>
-			<div class="list--box-content-blog">
-				<p>{{ post.excerpt | truncatewords:20 }}</p>
-			</div>	
-			<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
-		</div>			
+<div class="container">
+	<div class="row">
+	{% assign engPosts = site.posts | where: "language", "en" %}
+	{% for post in engPosts limit:18%}
+		<div class="col-lg-4">
+			<div class="list--box border-bottom">
+				<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+				<div class="list--box-title-blog h3 secondary-color">{{ post.title }}</div>
+				<div class="list--box-content-blog">
+					<p>{{ post.excerpt | truncatewords:20 }}</p>
+				</div>	
+				<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
+			</div>			
+		</div>
+	{% endfor %}	
 	</div>
-{% endfor %}	
 </div>
