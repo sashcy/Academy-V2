@@ -79,13 +79,20 @@ img {max-width: 100%;}
 .Subheader ul li a{width:100%;margin-left:-15px;padding:7px 15px; display:block;}
 }
 /* Pages */
-.binary--section {
+.sections {padding:0; margin:0;}
+.section {
+    padding: 40px 0;
+	margin: 0;	
+}
+.section-last {
+    padding-top: 20px;
+	padding-bottom: 0px;
+}
+.sections .section:last-child {
     padding-top: 40px;
-    padding-bottom: 40px
+	padding-bottom: 0px;
 }
-.section--border {
-    border-bottom: 1px solid #DEDEDE
-}
+
 .Blog-Posts__item {display:table; margin: 0px; padding-bottom: 15px; }
 .Blog-Posts__item__excerpt {border-bottom:1px solid #dedede; padding-bottom:15px;}
 .Blog-Posts__item__title {display:block; line-height: 28px; margin:10px 0; }
@@ -132,7 +139,7 @@ img {max-width: 100%;}
 
 
 /* Footer */
-.Footer {display:table; width:100%; margin-top:50px;}
+.Footer {display:table; width:100%; margin-top:0px;}
 .Footer  a{color:#fff;}
 .Footer__socket {display:table; width:100%; background-color:#2a3052; color:#fff; padding:15px 0px;}
 .Footer__socket h4 {font-size:14px;text-transform:none;font-weight:bold!important;letter-spacing:0px;margin-top:10px; margin-bottom:5px; color:#e98024;}
@@ -255,6 +262,11 @@ img {max-width: 100%;}
 .separator-xl {
     height: 50px
 }
+.separator-line-thin-gray-xs {
+    height: 1px; 
+	background-color: #DEDEDE;
+	margin: 0;
+}
 .separator-line-thin-gray {
     height: 1px; 
 	background-color: #DEDEDE;
@@ -264,7 +276,7 @@ img {max-width: 100%;}
 .ft-700 {font-weight: 700;}
 .bordered {border: 1px solid #444}
 .steps-container {
-	margin-top: 80px;
+	
 }
 .steps-content-box {
 	padding: 30px 0;	
@@ -283,85 +295,7 @@ img {max-width: 100%;}
 	color: #fff;
 	border: 0px solid #ccc;
 }
-.circle2 {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #f2f2f2;
-	margin: auto;
-	margin-top: -30px;
-	text-align: center;
-	line-height: 60px;
-	font-size: 22px;
-	font-weight: 300;
-	color: #000;
-	border: 1px solid #ccc;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-.circle3 {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #e98024;
-	margin: auto;
-	margin-top: -30px;
-	text-align: center;
-	line-height: 60px;
-	font-size: 22px;
-	font-weight: 300;
-	color: #ffffff;
-	border: 1px solid #ccc;
-}
-.circle4 {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin: auto;
-	margin-top: -30px;
-	text-align: center;
-	font-size: 28px;
-	font-weight: 300;
-	line-height: 60px;
-	color: #e98024;
-	border: 2px solid #f2f2f2;
-}
-.circle5 {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin: auto;
-	margin-top: -30px;
-	text-align: center;
-	font-size: 28px;
-	font-weight: 300;
-	line-height: 60px;
-	color: #e98024;
-}
-.circle6 {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin: auto;
-	margin-top: 20px;
-	text-align: center;
-	font-size: 28px;
-	font-weight: 300;
-	line-height: 60px;
-	color: #ccc;
-	border: 2px solid #dedede;
-}
-.circle7 {
-	margin: auto;
-	margin-top: 12px;
-	text-align: center;
-	font-size: 36px;
-	font-weight: 300;
-	line-height: 60px;
-	color: #ccc;
-}
+
 .v-gray-line {
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
@@ -370,37 +304,12 @@ img {max-width: 100%;}
     margin-left: auto;
     margin-right: auto;
 }
-.top-border {border-top: 2px solid #f2f2f2;}
-
+.top-border {border-top: 1px solid #dedede;}
+.border-down {border-bottom: 1px solid #dedede;}
 .block-element {display: block;}
 
 
 
-
-
-/*
-.led__grid-wrap {overflow: hidden; margin: -10px -10px;}
-.led__grid-wrap p{margin: 10px 10px;}
-.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 33%;}
-.led__grid-wrap__box__boxInner {position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; padding:0px; text-align:center; background:#f2f2f2; background-repeat:no-repeat; background-size:cover; background-position:center;}
-.led__grid-wrap__box__boxInner:hover {}
-.led__grid-wrap__box__boxInner__title {position:absolute; top:0px;left:0;right:0;padding:20px;}
-.led__grid-wrap__box__boxInner__vendor {display:block; float:left;position:absolute;bottom:5px;left:5px; right:5px; padding:0px; background:transparent; text-align:center;}
-.led__grid-wrap__box__boxInner__vendor img {max-width:60%; height:auto; margin:0 auto;}
-
-@media only screen and (max-width : 990px) {
-.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 50%;}
-}
-@media only screen and (max-width : 768px) {
-.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 70%;}
-}
-@media only screen and (max-width : 568px) {
-.led__grid-wrap__box {float: left;  position: relative; width: 50%; padding-bottom: 80%;}
-}
-@media only screen and (max-width : 480px) {
-.led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
-}
-*/
 /* grid cryptocurrencies-grid / MT5 */
 .led__grid-wrap {overflow: hidden; margin: -10px -10px;}
 .led__grid-wrap p{margin: 10px 10px;}
@@ -424,43 +333,14 @@ img {max-width: 100%;}
 .led__grid-wrap__box {float: left;  position: relative; width: 100%; padding-bottom: 100%;}
 }
 /* MT5 2 */
-/*
-.list--box {
-	background-color: #f2f2f2;	
-	padding: 20px;
-	position: relative;
-}
-.list--box h2 {
-		min-height: 0px;
-	}
-@media only screen and (max-width : 768px) {
-	.list--box {		
-		margin: 15px 0;
-	}
-	.separator-lg {
-		display: none;
-	}
-}
-	.list--box-content {
-	min-height: 90px;
-	display: block;
-}
-@media only screen and (min-width : 992px ) {
-	.list--box h2 {
-		min-height: 0px;
-	}
-}
-	
-.list--box .box-button {
-	position: absolute;
-	bottom: 20px;
-	left: 0;
-	right: 0;
-}
-*/
+
 /* cryptocurrencies-*/
+.list--box--container {
+	margin-bottom: 40px;
+}
 .list--box {	
 	padding: 40px 15px;
+	margin: 0;
 }
 
 .list--box-title {
@@ -469,6 +349,14 @@ img {max-width: 100%;}
 	font-size: 28px ; 
 	color: #E98024 ;
 	min-height: 120px;
+	margin: 0;
+}
+.list--box-title-sm {
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	font-weight:300; 
+	font-size: 28px ; 
+	color: #E98024 ;
+	min-height: 80px;
 	margin: 0;
 }
 .list--box-content {
@@ -499,6 +387,14 @@ img {max-width: 100%;}
 	min-height: 120px;
 	margin: 0;
 }
+.list--box-title-blog-sm {
+	font-family: Roboto, Helvetica, Arial, sans-serif; 
+	font-weight:300; 
+	font-size: 28px ; 
+	color: #E98024 ;
+	min-height: 80px;
+	margin: 0;
+}
 .list--box-content-blog {
 	margin: 0;
 	min-height: 120px;
@@ -525,7 +421,7 @@ td.boxx-title {font-size: 28px; background: #f2f2f2;}
 	color: #E98024 ;
 	Margin-bottom: 10px;
 }
-.h3 {
+.h3, a.h3 {
 	font-family: Roboto, Helvetica, Arial, sans-serif; 
 	color: #2A3052;
     font-size: 22px !important;
@@ -536,15 +432,11 @@ td.boxx-title {font-size: 28px; background: #f2f2f2;}
 
 /* cryptocurrencies-*/
 .list--box-tt {	
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
 
 .list--box-tt-title {
-	font-family: Roboto, Helvetica, Arial, sans-serif; 
-	font-weight:300; 
-	font-size: 28px ; 
-	color: #E98024 ;
-	min-height: 80px;
+	min-height: 60px;
 	margin: 0;
 }
 .list--box-tt-content {
