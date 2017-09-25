@@ -1,0 +1,279 @@
+.sections {
+	padding: 0; 
+	margin:0;
+}
+.section {
+    padding: 40px 0;
+	margin: 0;	
+}
+.section-last {
+    padding-top: 20px;
+	padding-bottom: 0px;
+}
+.sections .section:last-child {
+    padding-top: 40px;
+	padding-bottom: 0px;
+}
+/* home */
+
+.home--header {
+	width: 100%; /* for IE 6 */
+	background:  
+	linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+	url(../images/banner-background_1.png);
+    background-size: cover;
+	padding: 40px 20px;
+	background-position: center;
+	text-align: center;
+}
+
+.home--header-content {
+	padding: 50px 0;
+}
+
+/* Blog */
+
+.list--box {	
+	padding: 40px 15px;
+	margin: 0;
+}
+
+.list--box-sm {	
+	padding: 20px 15px;
+	margin: 0;
+}
+
+.list--box-title-blog {
+    min-height: 120px;
+}
+
+.list--box-title-blog h3 {
+    margin: 0px;
+}
+
+.list--box-title-blog-sm {
+    min-height: 80px;
+    ;
+}
+
+.list--box-content-blog {
+    margin: 0;
+    min-height: 140px;
+}
+
+.list--box-content-blog p {
+    margin: 0;
+}
+
+.list--box-cta {
+	min-height: 0px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.v2-date {
+    display: block;
+    margin-bottom: 10px;
+    color: #c2c2c2
+}
+
+@media (max-width: 992px) {
+    .list--box-title-blog,
+    .list--box-content-blog {
+        min-height: 0px!important;
+        margin: 10px 0px;
+    }
+}
+
+
+/* MT5 */
+
+.list--box-tt {
+    padding: 20px 0px;
+}
+
+.list--box-tt-title {
+    min-height: 60px;
+    margin: 0;
+}
+
+.list--box-tt-title h3 {
+    margin: 0px;
+}
+
+.list--box-tt-content {
+    margin: 0;
+    min-height: 190px;
+    padding: 15px;
+}
+
+.list--box-cta-tt {
+    min-height: 0px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.list--box-cta-tt .button {
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .list--box-tt {
+        padding: 0px 0px;
+    }
+    .list--box-tt-title,
+    .list--box-tt-content {
+        min-height: 0px;
+    }
+    .list--box-tt-title {
+        margin: 15px 0;
+    }
+    .steps-container {
+        margin: 0;
+    }
+    .list--box-cta-tt {
+        padding-top: 15px;
+        margin-bottom: 40px;
+    }
+}
+
+/* cryptocurrencies-*/
+
+.list--box--container {
+	margin-bottom: 40px;
+}
+
+.list--box-title {
+	min-height: 120px;
+	margin: 0;
+}
+
+.list--box-title h3 {
+    margin: 0px;
+}
+
+.list--box-title-sm {
+	min-height: 80px;
+	margin: 0;
+}
+.list--box-content {
+	margin: 0;
+	min-height: 120px;
+}
+.list--box-content p {margin: 0;}	
+.list--box-cta {
+	min-height: 0px;
+	margin: 0;
+	padding-top: 20px;
+}
+.list--box-cta .button{
+	margin: 0;
+}
+@media (max-width: 992px) {
+	.list--box {margin: 15px 0;}
+    .list--box-content {min-height: 0px!important; margin:10px 0px;}
+	.list--box-title {min-height: 0px!important; margin:10px 0px;}
+	.mob-hidden {display: none;}
+}
+
+/* Contributors */
+
+.Page-Grid__grid-wrap {
+    overflow: hidden;
+    margin: -10px -10px;
+}
+
+.Page-Grid__grid-wrap p {
+    margin: 10px 10px;
+}
+
+.Page-Grid__grid-wrap__box {
+    float: left;
+    position: relative;
+    width: 33.3%;
+    padding-bottom: 35%;
+}
+
+.Page-Grid__grid-wrap__box__boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border: 1px solid #dedede;
+    padding: 0px;
+    text-align: center;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Page-Grid__grid-wrap__box__boxInner:hover {
+    border: 1px solid #ccc;
+}
+
+.Page-Grid__grid-wrap__box__boxInner__title {
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.Page-Grid__grid-wrap__box__boxInner__vendor {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    right: 5px;
+    padding: 0px;
+    background: transparent;
+    color: #444;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Page-Grid__grid-wrap__box__boxInner__vendor img {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.grid--date {
+    display: block;
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    bottom: -14px;
+    left: 2px;
+    right: 2px;
+    padding: 5px;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 768px) {
+    .Page-Grid__grid-wrap__box {
+        float: left;
+        position: relative;
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Page-Grid__grid-wrap__box {
+        float: left;
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}

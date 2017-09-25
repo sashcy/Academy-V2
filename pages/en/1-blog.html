@@ -12,13 +12,26 @@ tag: main
 		<div class="col-lg-4">
 			<div class="list--box border-bottom">
 				<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-				<div class="list--box-title-blog h3 secondary-color">{{ post.title }}</div>
+				<div class="list--box-title-blog"><a class="secondary-color" href="{{ post.url | prepend: SourceUrl }}"><h3 class="secondary-color">{{ post.title }}</h3></a></div>
 				<div class="list--box-content-blog">
 					<p>{{ post.excerpt | truncatewords:20 }}</p>
 				</div>	
-				<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
+				<div class="list--box-cta"><a href="{{ post.url | prepend: SourceUrl }}">Read more..</a></div>
 			</div>			
 		</div>
 	{% endfor %}	
+	</div>
+</div>
+<div class="sections">
+	<div class="section">
+		<div class="container">
+			<div class="row">	
+				<div class="col-md center-text">
+					<h2>Open an account now</h2>
+					<p>Experience the world’s financial markets through binary options –– know what you stand to win or lose every time before you purchase a contract. Start your journey with a risk-free virtual account.</p>
+					<p><a class="button" href=""><span>Create account</span></a></p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>

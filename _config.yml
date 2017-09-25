@@ -3,14 +3,15 @@ email: marketing@binary.com
 description: > # this means to ignore newlines until "baseurl:"
   Binary.com is the premier trading platform for binary options on all financial markets. Trade Forex, Indices, Stocks, Commodities and global Sector Indices with trades ranging from 15 seconds up to 365 days.
 baseurl: ""
-url: "" 
-twitter_username: 
-github_username:  
+url: ""  
 
-# Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  
+sass:
+  style: :compressed 
+  
 exclude:
   - Gemfile
   - Gemfile.lock

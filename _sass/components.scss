@@ -1,0 +1,250 @@
+/* Sidebar */
+
+.Blog-Sidebar__section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Blog-Sidebar__section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Blog-Sidebar__section ul li {
+    border-bottom: 0px solid #ccc;
+    margin-left: 0px;
+    padding: 2px 0px;
+    width: 100%;
+}
+
+.Blog-Sidebar__section ul li a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Blog-Sidebar__section__full {
+    background-color: #f4f4f4;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.Blog-Sidebar__section__title__full {
+    font-weight: 400;
+    padding: 20px;
+}
+
+.Blog-Sidebar__recent-posts ul {
+    list-style-type: none;
+}
+
+.Blog-Sidebar__recent-posts ul li {
+    border-bottom: 0px solid #ccc;
+    margin-left: 15px;
+    padding: 5px 0px;
+}
+
+.Blog-Sidebar__recent-posts ul li a {}
+
+.sidebar-left {
+    margin: 0;
+}
+
+.sidebar-left ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Social */
+
+.Social {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.Social h5 {
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.Social__nav {
+    overflow: hidden;
+    margin: 0;
+    padding: 3px 0px;
+    list-style: none;
+}
+
+.Social__nav li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0px;
+}
+
+.Social__nav li img {
+    margin-top: -1px;
+}
+
+.Social__nav li a {
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 12px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 0px;
+    color: #444;
+}
+
+.Social__nav a:hover {
+    z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .Social {
+        margin-top: -5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .Social__nav li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+/* Video Embed */
+
+.video-container {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-thumb {
+    cursor: pointer;
+    display: inline-block;
+    width: 22%;
+    margin: 4% 4% 0 0;
+    vertical-align: top;
+}
+
+.video-thumb:nth-child(4n) {
+    margin-right: 0;
+}
+
+.video-thumb img {
+    padding-bottom: 1em;
+	max-width: 100%;
+}
+
+.video-thumb p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* Icons */
+
+.icon-sm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-md {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-news {
+    background: url(../icons/whats_new-wh.svg);
+}
+
+.icon-cryptocurrency {
+    background: url(../icons/cryptocurrencies-wh.svg);
+}
+
+.icon-analysis {
+    background: url(../icons/analysis-wh.svg);
+}
+
+.icon-contributors {
+    background: url(../icons/contributors-wh.svg);
+}
+
+.icon-webinars {
+    background: url(../icons/w_icon.svg);
+}
+
+.icon-videos {
+    background: url(../icons/v_icon.svg);
+}
+
+.icon-learningcenter {
+    background: url(../icons/learning_center-wh.svg);
+}
+
+.icon-dailyreport {
+    background: url(../icons/daily_report-wh.svg);
+}
+
+.icon-mt5 {
+    background: url(../icons/MT5-wh.svg);
+}
+
+.steps-content-box {
+    padding: 30px 0;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e98024;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border: 0px solid #dedede;
+}
