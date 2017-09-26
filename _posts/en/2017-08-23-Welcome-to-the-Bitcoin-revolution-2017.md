@@ -4,6 +4,7 @@ title: "Welcome to the Bitcoin revolution"
 language: en
 permalink: /en/Welcome-to-the-Bitcoin-revolution-2017/
 excerpt: "Imagine a world where Bitcoin and other cryptocurrencies have been fully adopted by the mainstream, establishing themselves alongside traditional fiat currencies ..."
+tag: crypto
 ---
 Imagine a world where Bitcoin and other cryptocurrencies have been fully adopted by the mainstream, establishing themselves alongside traditional fiat currencies that we’ve come to rely on for hundreds of years.
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Trade Ethereum and Litecoin on MT5"
 language: en
+tag: crypto
 permalink: /en/Trade-Ethereum-and-Litecoin-on-MT5/
-tag: cryptocurrency
 excerpt: "We’re extremely excited to announce two new additions to our cryptocurrency product range: Ethereum (ETH/USD) and Litecoin (LTC/USD)..."
 ---
 We’re extremely excited to announce two new additions to our cryptocurrency product range: Ethereum (ETH/USD) and Litecoin (LTC/USD).

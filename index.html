@@ -21,17 +21,17 @@ language: en
 			<div class="row">			
 				<div class="col-md">
 					<div class="icon-md icon-news"></div>
-					<a href=""><h3>What’s new?</h3></a>
+					<a href="{{ '/en/news/' | prepend: SourceUrl }}"><h3>What’s new?</h3></a>
 					<p>Catch all the latest updates from the Binary.com team on our official blog.</p>			
 				</div>
 				<div class="col-md">
 					<div class="icon-md icon-cryptocurrency"></div>
-					<a href=""><h3>Cryptocurrencies</h3></a>
+					<a href="{{ '/en/cryptocurrencies/' | prepend: SourceUrl }}"><h3>Cryptocurrencies</h3></a>
 					<p>Join us in exploring the digital currencies that are changing how industries across the world are doing business.</p>
 				</div>
 				<div class="col-md">
 					<div class="icon-md icon-mt5"></div>
-					<a href=""><h3>MetaTrader 5 (MT5)</h3></a>
+					<a href="{{ '/en/metatrader5-mt5/' | prepend: SourceUrl }}"><h3>MetaTrader 5 (MT5)</h3></a>
 					<p>Learn how to trade Forex and CFDs with our MT5 multi-asset trading platform – the choice of the modern trader.</p>	
 				</div>
 			</div>
@@ -39,17 +39,17 @@ language: en
 			<div class="row">			
 				<div class="col-md">
 					<div class="icon-md icon-analysis"></div>
-					<a href=""><h3>News and analysis</h3></a>
+					<a href="{{ '/en/news-and-analysis/' | prepend: SourceUrl }}"><h3>News and analysis</h3></a>
 					<p>Get market news, analysis, insights, and more across the world’s financial markets.</p>	
 				</div>
 				<div class="col-md">
 					<div class="icon-md icon-contributors"></div>
-					<a href=""><h3>Contributors</h3></a>
+					<a href="{{ '/en/contributors/' | prepend: SourceUrl }}"><h3>Contributors</h3></a>
 					<p>Browse our full list of contributors who provide us with expert analysis, reports, webinars, and more.</p>	
 				</div>
 				<div class="col-md">
 					<div class="icon-md icon-learningcenter"></div>
-					<a href=""><h3>Learning centre</h3></a>
+					<a href="{{ '/en/learning-centre/' | prepend: SourceUrl }}"><h3>Learning centre</h3></a>
 					<p>Learn how to be a better trader with free webinars, articles, ebooks, video tutorials, and other useful content.</p>	
 				</div>
 			</div>	
@@ -63,7 +63,7 @@ language: en
 					<div class="col-md center-text">
 						<h2>Open an account now</h2>
 						<p>Experience the world’s financial markets through binary options –– know what you stand to win or lose every time before you purchase a contract. Start your journey with a risk-free virtual account.</p>
-						<p><a class="button" href=""><span>Create account</span></a></p>
+						<p><a class="button" href="https://www.binary.com/en/home.html?utm_source=blog&utm_medium=social&utm_campaign=oct2016_sidebar_openafreeaccount_en"><span>Create account</span></a></p>
 					</div>
 				</div>
 			</div>
@@ -124,47 +124,12 @@ language: en
 				</div>
 			</div>
 			<div class="row">	
-				<div class="col-lg-4">
-					<div class="list--box-sm border-bottom">
-						<span class="font-s v2-date">16.06.2017</span>
-						<div class="list--box-title-blog">
-							<a class="secondary-color" href=""><h3 class="secondary-color">Trade Ethereum and Litecoin on MT5</h3></a>
-						</div>
-						<div class="list--box-content-blog">
-							<p>We’re extremely excited to announce two new additions to our cryptocurrency product range: Ethereum (ETH/USD) and Litecoin (LTC/USD)...</p>
-						</div>	
-						<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
-					</div>						
-				</div>
-				<div class="col-lg-4">
-					<div class="list--box-sm border-bottom">
-						<span class="font-s v2-date">16.06.2017</span>
-						<div class="list--box-title-blog">
-							<a class="secondary-color" href=""><h3 class="secondary-color">Bitcoin trading now available on MT5</h3></a>
-						</div>
-						<div class="list--box-content-blog">
-							<p>As part of our commitment to client satisfaction, we’ve just added the most popular cryptocurrency in the world to our list of tradable assets...</p>
-						</div>	
-						<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
-					</div>					
-				</div>
-				<div class="col-lg-4">
-					<div class="list--box-sm border-bottom">
-						<span class="font-s v2-date">16.06.2017</span>
-						<div class="list--box-title-blog">
-							<a class="secondary-color" href=""><h3 class="secondary-color">Experience the power of spread trading on MT5</h3></a>
-						</div>
-						<div class="list--box-content-blog">
-							<p>As part of our ongoing efforts to enhance our products and services, we are consolidating all spread contracts solely on our MT5 platform...</p>
-						</div>	
-						<div class="list--box-cta"><a href="{{ post.url | relative_url }}">Read more..</a></div>
-					</div>
-				</div>
+				{% include snippets/blog-latest-mini.html %}
 			</div>
 			<div class="row">	
 				<div class="col-md center-text">
 					<div class="separator-lg"></div>
-					<p><a href="" class="button"><span>Go to blog</span></a></p>
+					<p><a href="{{ '/en/news/' | prepend: SourceUrl }}" class="button"><span>Go to blog</span></a></p>
 				</div>
 			</div>	
 		</div>
