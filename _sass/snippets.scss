@@ -107,6 +107,10 @@ img {
     display: block;
 }
 
+.content-color {
+	color: #000;
+}
+
 
 /* Corrections */
 
@@ -133,4 +137,8 @@ a.secondary-color:hover {
 	border:none; 
 	margin:0; 
 	padding:0;
+}
+
+.sidebar-left {
+	margin-bottom: 20px;
 }

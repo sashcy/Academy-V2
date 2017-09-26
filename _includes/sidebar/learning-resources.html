@@ -1,13 +1,13 @@
+{% assign current = page.url %}
 {% include lang.html %}
     {% if siteLang == "en" %}
 	{% assign NavLang = site.pages | where: "language", "en" %}
-	<div class="Blog-Sidebar__section">
-		<h3 class="Blog-Sidebar__section__title">Learning Centre</h3>		
+	<div class="sidebar-left">	
 			<ul>								
 				{% for page in NavLang %}
 				{% if page.tag == "learning" %}	
 					{% if page.title %}
-						<li><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
+						<li {% if page.url == current %}class="selected"{% endif %}><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
 					{% endif %}
 				{% endif %}	
 				{% endfor %}
@@ -15,7 +15,7 @@
 				<li><a href="https://shop.binary.com/collections/applications.html?utm_source=blog&utm_medium=social&utm_campaign=oct2016_sidebar_applications_en">Applications</a></li>
 				<li><a href="https://www.binary.com/en/get-started/glossary.html?utm_source=blog&utm_medium=social&utm_campaign=oct2016_sidebar_glossary_en">Glossary</a></li>
 				<li><a href="https://www.binary.com/en/get-started/beginners-faq.html?l=en&utm_source=blog&utm_medium=social&utm_campaign=oct2016_sidebar_faq_en">FAQ</a></li>
-			</ul>
+			</ul>	
 	</div>		
 	{% elsif siteLang == "de" %}
 	{% assign NavLang = site.pages | where: "language", "de" %}
