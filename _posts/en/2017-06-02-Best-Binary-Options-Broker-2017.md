@@ -5,6 +5,7 @@ language: en
 permalink: /en/Best-Binary-Options-Broker-2017/
 excerpt: "We are extremely happy to announce that we’ve been named Best Binary Options Broker by the Online Personal Wealth Awards 2017..."
 ---
+{% include getdomain.html %}
 <div class="cta-lg">
 <img src="{{ SourceUrl }}/assets/images/aw-2017.jpg" width="300" height="auto" alt="Best Binary Options Broker 2017">
 </div>
