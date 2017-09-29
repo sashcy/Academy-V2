@@ -111,6 +111,12 @@ img {
 	color: #000;
 }
 
+@media (max-width: 768px) {
+	.md-centered {
+		text-align: center;
+	}
+}
+
 
 /* Corrections */
 
