@@ -1,18 +1,14 @@
 {% include lang.html %}
-
+<div class="row">
 {% if siteLang == "en" %}
     {% assign NavLang = site.pages | where: "language", "en" %}
 	{% for page in NavLang  %}
     {% if page.tag == "contributor" %}	
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>					
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>	
 		{% endif %}
 	{% endif %}	
 	{% endfor %}
@@ -21,14 +17,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>				
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}
@@ -37,14 +29,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>				
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}
@@ -53,14 +41,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>					
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}	
@@ -69,14 +53,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>				
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}
@@ -85,14 +65,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>					
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}
@@ -101,14 +77,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>				
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}
@@ -117,14 +89,10 @@
 	{% for page in NavLang %}
 	{% if page.tag == "contributor" %}
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>					
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}
 	{% endfor %}	
@@ -133,15 +101,12 @@
 	{% for page in NavLang %}
     {% if page.tag == "contributor" %}	
 		{% if page.title %}
-			<div class="Page-Grid__grid-wrap__box">
-				<a href="{{ page.permalink | prepend: SourceUrl }}">
-					<div class="Page-Grid__grid-wrap__box__boxInner">
-						<div class="Page-Grid__grid-wrap__box__boxInner__title">{{ page.title }}</div>
-						<span class="Page-Grid__grid-wrap__box__boxInner__vendor"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></span>					
-					</div>
-				</a>	
-	        </div>
+			<div class="col-sm-3 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			</div>
 		{% endif %}
 	{% endif %}	
 	{% endfor %}
 {% endif %}
+</div>

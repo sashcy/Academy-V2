@@ -1,120 +1,33 @@
-.Footer {
-    display: table;
-    width: 100%;
-    margin-top: 0px;
+#footer-menu h4 {
+    font-size: .8695652174rem;
+}
+#footer #footer-menu ul {
+	padding: 0;
+	margin-top: -10px;
+}
+#footer #footer-menu li {
+    line-height: 1;
 }
 
-.Footer a {
-    color: #fff;
+#footer .content-inverse-color a {
+    text-decoration: underline
 }
 
-.Footer__socket {
-    display: table;
-    width: 100%;
-    background-color: #2a3052;
-    color: #fff;
-    padding: 15px 0px;
+#footer #footer-regulatory #regulatory-text {
+    text-align: justify;
+    font-size: .6575162324rem
 }
 
-.Footer__socket h4 {
-    font-size: 14px;
-    text-transform: none;
-    font-weight: bold!important;
-    letter-spacing: 0px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #e98024;
-}
-
-.Footer__socket ul {
-    list-style-type: none;
-    width: 100%;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-}
-
-.Footer__socket ul li {
-    border-bottom: 0px solid #ccc;
-    margin: 0px;
-    padding: 0px;
+#footer #footer-last .gambling {
+    text-align: justify;
+    font-size: .7561436673rem;
     font-weight: 400;
-}
-
-.Footer__socket ul li a {
-    padding: 0px 0px;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.Footer__socket ul li a:hover {
-    color: #eee;
-    text-decoration: underline;
-}
-
-.Footer__info {
-    display: table;
-    width: 100%;
-    background-color: #15212d;
-    color: #fff;
-    padding: 10px 0px;
-    font-size: 12px;
-}
-
-.Footer__info a {
-    text-decoration: underline;
-}
-
-.Footer__copyrights {
-    display: table;
-    width: 100%;
-    background-color: #2a3052;
-    color: #fff;
-    padding: 10px 0px;
-    text-align: center;
-}
-
-.Footer__copyrights a {
-    text-decoration: underline;
-}
-
-.Footer__copyrights ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: block;
-}
-
-.Footer__copyrights ul li {
-    display: inline-block;
-    margin: 0px 0px;
-    padding: 5px 0px;
-}
-
-.Footer__copyrights ul li a {
-    padding: 4px 15px;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.Footer__copyrights ul li a:hover {
-    color: #eee;
-    text-decoration: underline;
-}
-
-.Footer__copyrights__copy {
-    color: #eee;
-}
-
-.Footer__social h5 {
-    text-align: center;
+    line-height: 110%
 }
 
 .Footer__social ul {
-    margin-top: 20px;
+	margin: 0px;
+	padding: 7px 0 0;
 }
 
 .Footer__social ul li {
