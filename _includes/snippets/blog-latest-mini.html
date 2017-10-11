@@ -7,13 +7,8 @@
 				<div class="col-lg-4">
 					<div class="list--box-sm border-bottom">
 						<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-						<div class="list--box-title-blog">
 							<a class="secondary-color" href="{{ post.url | prepend: SourceUrl }}"><h3 class="secondary-color">{{ post.title }}</h3></a>
-						</div>
-						<div class="list--box-content-blog">
 							<p>{{ post.excerpt | truncatewords:15 }}</p>
-						</div>	
-						<div class="list--box-cta"><a href="{{ post.url | prepend: SourceUrl }}">Read more..</a></div>
 					</div>			
 				</div>
 			{% endif %}

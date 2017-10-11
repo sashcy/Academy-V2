@@ -11,18 +11,21 @@ tag: main
 	{% assign engPosts = site.posts | where: "language", "en" %}
 	{% for post in engPosts limit:18%}
 		<div class="col-lg-4">
-			<div class="list--box border-bottom">
+			<div class="list--box">
 				<span class="font-s v2-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-				<div class="list--box-title-blog"><a class="secondary-color" href="{{ post.url | prepend: SourceUrl }}"><h3 class="secondary-color">{{ post.title }}</h3></a></div>
-				<div class="list--box-content-blog">
+				<a class="secondary-color" href="{{ post.url | prepend: SourceUrl }}"><h3 class="secondary-color">{{ post.title }}</h3></a>
+				
 					<p>{{ post.excerpt | truncatewords:20 }}</p>
-				</div>	
-				<div class="list--box-cta"><a href="{{ post.url | prepend: SourceUrl }}">Read more..</a></div>
+					
+				
 			</div>			
 		</div>
 	{% endfor %}	
 	</div>
 </div>
+<div class="container">
+		<div class="separator-line-thin-gray-xs"></div>	
+	</div>
 <div class="sections">
 	<div class="section">
 		<div class="container">
