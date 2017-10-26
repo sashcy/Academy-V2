@@ -182,6 +182,11 @@ a.secondary-color:hover {
 	margin-bottom: 20px;
 }
 
-
+.f2bg {
+	background-image: asset-url("/assets/images/f2bg.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+	padding-bottom: 5px;
+}
 
 .tests {}
