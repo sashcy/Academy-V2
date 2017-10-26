@@ -5,5 +5,5 @@
 	background-image: url({{ '/assets/images/f2bg.png' | prepend: SourceUrl }});
     background-repeat: repeat-x;
     background-position: bottom;
-	padding-bottom: 5px;
+	padding-bottom: 6px;
 }
