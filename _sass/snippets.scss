@@ -127,9 +127,16 @@ img {
 	color: #000;
 }
 
+.recommended-links-col {
+	border-right: 1px solid #dedede;
+}
+
 @media (max-width: 768px) {
 	.md-centered {
 		text-align: center;
+	}
+	.recommended-links-col {
+	border-right: none;
 	}
 }
 
@@ -173,4 +180,11 @@ a.secondary-color:hover {
 
 .sidebar-left {
 	margin-bottom: 20px;
+}
+
+.f2bg {
+	background-image: url("/assets/images/f2bg.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+	padding-bottom: 5px;
 }
