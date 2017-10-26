@@ -181,11 +181,4 @@ a.secondary-color:hover {
 .sidebar-left {
 	margin-bottom: 20px;
 }
-@mixin backgroundShorthand($imgpath,$position:bottom,$repeat: repeat-x) {
-    background: transparent url(#{$imgpath}) $repeat $position;
-}
-.f2bg {
-	@include backgroundShorthand('./assets/images/f2bg.png');
-	padding-bottom: 5px;
-}
 
