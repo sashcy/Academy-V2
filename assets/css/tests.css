@@ -1,5 +1,5 @@
 .f2bg {
-	background-image: asset-url("../images/f2bg.png");
+	background-image: url("{{ '/assets/images/f2bg.png' | prepend: SourceUrl }}");
     background-repeat: repeat-x;
     background-position: bottom;
 	padding-bottom: 5px;
