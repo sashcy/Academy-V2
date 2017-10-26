@@ -185,7 +185,7 @@ a.secondary-color:hover {
     background: transparent url(#{$imgpath}) $repeat $position;
 }
 .f2bg {
-	@include backgroundShorthand('/assets/images/f2bg.png');
+	@include backgroundShorthand('./assets/images/f2bg.png');
 	padding-bottom: 5px;
 }
 
