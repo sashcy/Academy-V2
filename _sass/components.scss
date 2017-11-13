@@ -23,14 +23,14 @@
     font-size: 14px;
 }
 
-.Social__nav {
+.Social__nav, .Share__nav  {
     overflow: hidden;
     margin: 0;
     padding: 3px 0px;
     list-style: none;
 }
 
-.Social__nav li {
+.Social__nav li, .Share__nav li {
     display: inline-block;
     *display: inline;
     zoom: 1;
@@ -41,7 +41,7 @@
     margin-top: -1px;
 }
 
-.Social__nav li a {
+.Social__nav li a, .Share__nav li a {
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     -ms-transition: all 0.1s;
@@ -62,6 +62,11 @@
     border-radius: 100px;
     margin-right: 0px;
     color: #444;
+}
+
+.Share__nav li a {
+    width: 30px;
+    height: 30px;
 }
 
 .Social__nav a:hover {
