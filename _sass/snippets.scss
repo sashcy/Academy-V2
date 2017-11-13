@@ -155,6 +155,10 @@ img {
 	background: #fff;
 }
 
+.centered {
+	text-align: center !important;
+}
+
 /* Corrections */
 
 .button {
@@ -190,3 +194,80 @@ a.secondary-color:hover {
   display: -ms-flexbox !important;
   display: flex !important;
 }
+.mb-auto {
+  margin-bottom: auto !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.test-td {
+	border: none !important;
+	font-size: 18px;
+	width: 33% !important;
+	text-align: center;
+}
+
+.test-table-container {
+	display: table;
+}
+.test-table-cell {
+	display: table-cell;
+	width: 33% !important;
+	text-align: center;
+	padding: 10px;
+
+}
+.test-table-row {
+	display: table-row;
+}
+
+/* EXAMPLE 1 - BOOTSTRAP FLEXBOX
+   - Equal Height Columns in Rows
+   - Equal Height Thumbnails
+   - Flex Grow to Fill Paragraph Height
+*/
+
+/* Flexbox Equal Height Bootstrap Columns (fully responsive) */
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+    display: flex;
+	 flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row.row:after, 
+  .flex-row.row:before {
+	 display: flex;
+  }
+  .flex-row.row > [class*='col-'] > .box {
+    display: flex;
+	 flex: 1;
+  }
+}
+
+
+
+
+/* Grow thumbnails to fill columns height */
+.flex-row .thumbnail,
+.flex-row .caption {
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: column;
+}
+
+/* Flex Grow Text Container */
+.flex-row .caption p.flex-text {
+	flex-grow: 1;
+}
+
+/* Flex Responsive Image */
+.flex-row img {
+	width: 100%;
+	height: auto;
+}
+
