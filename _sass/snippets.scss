@@ -123,6 +123,14 @@ img {
     border-bottom: 1px solid #dedede;
 }
 
+.p-10 {
+	padding: 10px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
 .block-element {
     display: block;
 }
@@ -190,46 +198,13 @@ a.secondary-color:hover {
 	margin-bottom: 20px;
 }
 
-.d-flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-.mb-auto {
-  margin-bottom: auto !important;
-}
 
-.p-2 {
-  padding: 0.5rem !important;
-}
-
-.test-td {
-	border: none !important;
-	font-size: 18px;
-	width: 33% !important;
-	text-align: center;
-}
-
-.test-table-container {
-	display: table;
-}
-.test-table-cell {
-	display: table-cell;
-	width: 33% !important;
-	text-align: center;
-	padding: 10px;
-
-}
-.test-table-row {
-	display: table-row;
-}
-
-/* EXAMPLE 1 - BOOTSTRAP FLEXBOX
+/* FLEXBOX
    - Equal Height Columns in Rows
    - Equal Height Thumbnails
    - Flex Grow to Fill Paragraph Height
 */
 
-/* Flexbox Equal Height Bootstrap Columns (fully responsive) */
 @media only screen and (min-width : 481px) {
   .flex-row.row {
     display: flex;

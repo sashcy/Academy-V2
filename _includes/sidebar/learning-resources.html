@@ -1,13 +1,14 @@
-{% assign current = page.url %}
+{% assign activePage = page.url %}
 {% include lang.html %}
     {% if siteLang == "en" %}
 	{% assign NavLang = site.pages | where: "language", "en" %}
+	<h3>Learning Centre</h3>
 	<div class="sidebar-left">	
 			<ul>								
 				{% for page in NavLang %}
 				{% if page.tag == "learning" %}	
 					{% if page.title %}
-						<li {% if page.url == current %}class="selected"{% endif %}><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
+						<li {% if page.url == activePage %}class="selected"{% endif %}><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
 					{% endif %}
 				{% endif %}	
 				{% endfor %}

@@ -4,12 +4,12 @@ layout: compress
 <!DOCTYPE html>
 {% include lang.html %}
 <html lang="{{ siteLang }}">
-  {% include head.html %}
-    {% include header.html %}	
+{% include head.html %}    
+    {% include header.html %}
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">
-				    <h1>{{ page.title }}</h1>
+				    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
 				</div>
 				<div class="col-md-3">
 				    {% include snippets/share.html %}
@@ -17,12 +17,23 @@ layout: compress
 			</div>
 			<div class="row">
 				<div class="col-md-3">
-					{% include sidebar/learning-resources.html %}
+					{% if page.tag == "contributor" %}	
+						{% include sidebar/contributor-list.html %}
+					{% endif %}
+					{% if page.tag == "learning" or page.tag == "contributor" %}	
+						{% include sidebar/learning-resources.html %}
+					{% endif %}	
 					{% include sidebar/ready-to-start.html %}
-					{% include sidebar/partner-with-us.html %}					
+				    {% include sidebar/partner-with-us.html %}
+				    					
+					<div class="sc--center">
+					{% include snippets/facebook.html %}
+					{% include snippets/twitter.html %}
+					    <div class="g-page" data-width="210" data-href="https://plus.google.com/106251151552682209951" data-showcoverphoto="false" data-rel="publisher"></div>
+					</div>
 				</div>
-				<div class="col-md-9">			
-					<div class="rte">{{ content }}</div>				
+				<div class="col-md-9">
+					<div class="rte">{{ content }}</div>
 				</div>				
 			</div>		
 		</div>
