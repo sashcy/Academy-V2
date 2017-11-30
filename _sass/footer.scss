@@ -28,13 +28,21 @@
 .Footer__social ul {
 	margin: 0px;
 	padding: 7px 0 0;
+	text-align: right;
 }
 
 .Footer__social ul li {
     padding: 2px;
+	text-align: center;
 }
 
 .Footer__social ul li img {
     width: 30px;
     height: 30px;
+}
+
+@media only screen and (max-width: 764px) {
+	.Footer__social ul {
+		text-align: center;
+	}
 }
