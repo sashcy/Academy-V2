@@ -9,83 +9,54 @@
     padding: 0;
 }
 
-/* Social */
+/* Share + Social */
 
-.Social {
-    margin-top: -5px;
-    margin-bottom: 20px;
-    text-align: right;
+.Share {
+	text-align: right;
+	margin: 0;
+	margin-top: -10px;
 }
 
-.Social h5 {
+.Share h5 {
     font-weight: 400;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-size: 14px;
 }
 
-.Social__nav, .Share__nav  {
-    overflow: hidden;
-    margin: 0;
-    padding: 3px 0px;
-    list-style: none;
+.Share ul, .Social ul {
+	margin: 0;
+	padding: 0;
 }
 
-.Social__nav li, .Share__nav li {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    padding: 0px;
+.Share ul li, .Social ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 3px;
 }
 
-.Social__nav li img {
-    margin-top: -1px;
-}
-
-.Social__nav li a, .Share__nav li a {
-    -webkit-transition: all 0.1s;
-    -moz-transition: all 0.1s;
-    -ms-transition: all 0.1s;
-    -o-transition: all 0.1s;
-    transition: all 0.1s;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    position: relative;
-    z-index: 1;
-    width: 35px;
-    height: 35px;
-    line-height: 30px;
-    font-size: 12px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    margin-right: 0px;
-    color: #444;
-}
-
-.Share__nav li a {
+.Share img, .Social img {
     width: 30px;
     height: 30px;
 }
 
-.Social__nav a:hover {
-    z-index: 2;
+.Social {
+	text-align: right;
+	margin: 0;
+	margin-top: 15px;
 }
 
 @media only screen and (max-width: 768px) {
+	.Share {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 992px) {
     .Social {
-        margin-top: -5px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .Social__nav li a {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+		text-align: center;
     }
 }
-
 
 /* Video Embed */
 
