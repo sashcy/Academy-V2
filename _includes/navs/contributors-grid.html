@@ -5,9 +5,10 @@
 	{% for page in NavLang  %}
     {% if page.tag == "contributor" %}	
 		{% if page.title %}
-			<div class="col-sm-3 center-text">
-				<a href="{{ page.permalink | prepend: SourceUrl }}"><img src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
-				<p><a href="{{ page.permalink | prepend: SourceUrl }}">{{ page.title }}</a></p>
+			<div class="col-sm-6 center-text">
+				<a href="{{ page.permalink | prepend: SourceUrl }}"><img class="rounded" src="{{ page.image | prepend: SourceUrl }}" alt="{{ page.title }}"></a>
+				<h3 class="secondary-color">{{ page.title }}</h3>
+				<p>{{ page.content | truncatewords:20 }}</p>
 			</div>	
 		{% endif %}
 	{% endif %}	

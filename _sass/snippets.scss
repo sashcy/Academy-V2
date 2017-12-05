@@ -145,8 +145,11 @@ img {
 	color: #000;
 }
 
-.recommended-links-col {
-	border-right: 1px solid #dedede;
+.rounded {
+	border-radius: 100%;
+	border: 1px solid #dedede;
+	padding: 3px;
+	width: 120px;
 }
 
 @media (max-width: 768px) {
