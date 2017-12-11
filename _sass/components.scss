@@ -9,6 +9,23 @@
     padding: 0;
 }
 
+.sidebar-box {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.sidebar-box p:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-box .button {
+	margin: 0;
+}
+
+.sidebar-box .list-group {
+    margin-bottom: 0;
+}
+
 /* Share + Social */
 
 .Share {
