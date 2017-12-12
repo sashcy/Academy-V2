@@ -11,9 +11,4 @@
 {% assign siteLang = 'en' %}{% assign LangUrl = '/en/' %}
 {% endif %}
 
-{% assign coresource = site.github.url %}
-{% if coresource contains "localhost" %}{% assign SourceUrl = site.url %}
-{% elsif coresource contains "https" %}{% assign SourceUrl = site.github.url %}
-{% else %}
-{% assign SourceUrl = site.github.url | replace: 'http', 'https' %}
-{% endif %}
+{% assign translate = site.data.translations[siteLang] %}
