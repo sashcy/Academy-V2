@@ -3,7 +3,129 @@ layout: error
 title: Page Not Found
 permalink: /404.html
 ---
-<p>The page you requested does not exist.</p>
-<p>You may have followed a bad external link, or mis-typed a URL.</p>
-<p>If you're seeing this issue repeatedly, let us know and we'll look into it.</p>
-<p><a class="button" href="https://www.binary.com/en/contact.html"><span>Report a Broken Link</span></a></p>
+<div class="sections">
+	<div class="section fill-bg-color">
+		<div class="container">
+			<div class="row">	
+				<div class="col center-text">
+				<h1>{{ page.title }}</h1>
+					<h2>The page you requested does not exist.</h2>
+					<p>You may have followed a bad external link, or mis-typed a URL.</p>
+					<p>If you're seeing this issue repeatedly, let us know and we'll look into it.</p>
+					<p><a class="button" href="https://www.binary.com/en/contact.html"><span>Report a Broken Link</span></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container center-text">
+			<div class="row">	
+				<div class="col">
+					<h2>Featured videos</h2>
+				</div>
+			</div>	
+			<div class="row">	
+				<div class="col-lg-4">			
+					<div class="video-container">
+						<iframe src="//www.youtube.com/embed/mXuR_SRP-XI" allowfullscreen></iframe>
+					</div>
+					<a href="https://www.youtube.com/watch?v=mXuR_SRP-XI"><h3>Introduction to the MT5 trading platform</h3></a>
+				</div>
+				<div class="col-lg-4">			
+					<div class="video-container">
+						<iframe src="//www.youtube.com/embed/ntu6pZRopq4" allowfullscreen></iframe>
+					</div>	
+					<a href="https://www.youtube.com/watch?v=ntu6pZRopq4"><h3>How to choose and subscribe to a trading signal</h3></a>
+				</div>
+				<div class="col-lg-4">			
+					<div class="video-container">
+						<iframe src="//www.youtube.com/embed/XVW_6X_uf8Q" allowfullscreen></iframe>
+					</div>
+					<a href="https://www.youtube.com/watch?v=XVW_6X_uf8Q"><h3>How to create a trading robot in the MQL5 Wizard</h3></a>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col">
+					<p><a href="" class="button"><span>See all videos</span></a></p>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="section">
+		<div class="container center-text">
+			<div class="row">	
+				<div class="col">
+					<h2>Recommended links</h2>
+				</div>
+			</div>
+			<div class="flex-row row centered">
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="{{ '/en/metatrader5-mt5/' | prepend: SourceUrl }}"><h3 class="card-3-title">MetaTrader 5</h3></a>
+							<p class="flex-text">Enter the world of Forex and CFD trading. We show you how to get started with the leading multi-asset trading platform: MT5.</p>
+							<p><a href="{{ '/en/metatrader5-mt5/' | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="{{ '/en/cryptocurrencies/' | prepend: SourceUrl }}"><h3 class="card-3-title">Cryptocurrencies</h3></a>
+							<p class="flex-text text-muted">Join us in exploring the digital currencies that are changing how industries across the world are doing business.</p>
+							<p><a href="{{ '/en/cryptocurrencies/' | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="https://shop.binary.com/"><h3 class="card-3-title">Binary.com Shop</h3></a>
+							<p class="flex-text">Grab apps, strategies, guides, gear, and more from Binary.com and other third-party sellers.</p>
+							<p><a href="https://shop.binary.com/" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex-row row centered">
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="{{ '/en/webinars/' | prepend: SourceUrl }}"><h3 class="card-3-title">Webinars</h3></a>
+							<p class="flex-text">Binary.com in collaboration with professional traders provides free training sessions for both beginners and advanced traders.</p>
+							<p><a href="{{ '/en/webinars/' | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="{{ '/en/daily-report/' | prepend: SourceUrl }}"><h3 class="card-3-title">Daily Report</h3></a>
+							<p class="flex-text text-muted">Stay up-to-date with the latest financial news and trends from around the world, with Daily Market Reports written by professional trader, Dave Evans.</p>
+							<p><a href="{{ '/en/daily-report/' | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card thumbnail bottom-30 bordered">
+						<div class="caption">
+							<a href="{{ '/en/mellon-on-the-markets/' | prepend: SourceUrl }}"><h3 class="card-3-title">Mellon on the Markets</h3></a>
+							<p class="flex-text">Read through Jim Mellon's analysis of the global markets and learn how to determine whether you should or should not trade headline news driven events. Completely free of charge!</p>
+							<p><a href="{{ '/en/mellon-on-the-markets/' | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">	
+				<div class="col center-text">
+					<h2>Latest Posts</h2>				
+				</div>
+			</div>
+			{% include snippets/blog-latest-mini.html %}
+		</div>
+	</div>
+</div>

@@ -7,7 +7,7 @@
 			{% assign ActiveLanguagePosts = site.posts | where: "language", siteLang %}	
 			{% for post in ActiveLanguagePosts | limit:10 %}														
 				{% if post.title %}
-					<li><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+					<li><a href="{{ post.url | prepend: SourceUrl }}">{{ post.title }}</a></li>
 				{% endif %}				
 			{% endfor %}
 			</ul>
