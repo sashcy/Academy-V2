@@ -76,9 +76,16 @@
 
 .card {
 	border-radius: 3px;
+	margin-bottom: 30px;	
 }
 .card .caption {
 	padding: 10px 20px 0 20px;
+}
+
+@media only screen and (max-width : 576px) {
+	.card {
+		margin-bottom: 15px;
+  }
 }
 
 /* FLEXBOX
@@ -106,11 +113,7 @@
   }
 }
 
-@media only screen and (max-width : 576px) {
-	.flex-row.row > [class*='col-'] {
-		margin-bottom: 15px;
-  }
-}
+
 
 
 /* Grow thumbnails to fill columns height */

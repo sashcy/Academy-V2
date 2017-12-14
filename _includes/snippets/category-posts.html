@@ -1,9 +1,10 @@
 {% include lang.html %}
 {% include geturl.html %}
-{% assign ActiveLanguagePosts = site.posts | where: "language", siteLang %}			
+{% capture category_name %}{{ page.category }}{% endcapture %}
+{% assign ActiveLanguagePosts = site.posts | where: "language", siteLang  %}			
 <div class="flex-row row">
-	{% for post in ActiveLanguagePosts limit:3 %}
-	{% if post.tag == "crypto" %}
+	{% for post in ActiveLanguagePosts limit:5 %}
+	{% if post.tags contains category_name %}
 		{% if post.title %}
 			<div class="col-sm-4">
 				<div class="card thumbnail bordered">				

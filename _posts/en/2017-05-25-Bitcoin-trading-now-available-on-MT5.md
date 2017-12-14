@@ -2,7 +2,7 @@
 layout: post
 title: "Enter the world of high-yield returns: Bitcoin trading now available on MT5"
 language: en
-tag: metatrader
+tags: [cryptocurrency, mt5]
 permalink: /en/Bitcoin-trading-now-available-on-MT5/
 excerpt: "As part of our commitment to client satisfaction, we’ve just added the most popular cryptocurrency in the world to our list of tradable assets..."
 ---

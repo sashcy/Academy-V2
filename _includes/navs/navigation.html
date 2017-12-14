@@ -2,7 +2,7 @@
 {% include geturl.html %}
 {% assign ActiveLanguagePages = site.pages | where: "language", siteLang %}	
 {% for page in ActiveLanguagePages %}														
-	{% if page.tag contains "main" %}	
+	{% if page.nav == "main" %}	
 		{% if page.title %}
 			<li><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
 		{% endif %}

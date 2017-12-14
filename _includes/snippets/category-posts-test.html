@@ -1,0 +1,43 @@
+{% include lang.html %}
+{% include geturl.html %}
+{% capture category_name %}{{ page.category }}{% endcapture %}
+{% assign ActiveLanguagePosts = site.posts | where: "language", siteLang  %}			
+<div class="flex-row row">
+	{% for post in ActiveLanguagePosts %}
+	{% if post.tags contains category_name %}
+		{% if post.tags %}
+		{% if post.title %}
+			<div class="col-sm-4">
+				<div class="card thumbnail bordered">				
+					<div class="caption">
+					<p class="font-s">{{ post.date | date: "%d.%m.%Y" }}</p>
+						<a href="{{ post.url | prepend: SourceUrl }}"><h3>{{ post.title }}</h3></a>
+						<p class="flex-text">{{ post.excerpt | truncatewords:20 }}</p>
+						<p><a href="{{ post.url | prepend: SourceUrl }}" class="button"><span>{{ translate.read_more }}</span></a></p>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+		{% endif %}
+	{% endif %}	
+	{% endfor %}
+</div>
+
+{% for post in site.categories.name limit: 1 %}
+{% endfor %}
+
+
+
+{% assign counter = 1 %}
+{% for post in ActiveLanguagePosts %}
+	{% if post.tags contains category_name %}
+		{% assign counter=counter | plus:1 %}
+		{% if counter < 5 %}
+		<a href="{{ post.url | prepend: SourceUrl }}"><h3>{{ post.title }}</h3></a>
+		{% endif %}
+	{% endif %}
+{% endfor %}
+<br>
+{{ counter }}
+<br>
+{{ category_name }}
