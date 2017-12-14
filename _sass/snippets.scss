@@ -129,6 +129,10 @@ img {
 	margin-top: 20px;
 }
 
+.bottom-5 {
+	margin-bottom: 5px;
+}
+
 .bottom-20 {
 	margin-bottom: 20px;
 }
@@ -181,6 +185,11 @@ img {
 .text-right {
 	text-align: right;
 }
+
+.text-center {
+	text-align: center !important;
+}
+
 .justify {
 	text-align: justify;
 }
@@ -194,11 +203,6 @@ img {
 }
 
 /* Corrections */
-
-.button {
-    display: inline-table;
-    margin-bottom: 5px;
-}
 
 .cta-lg {
     text-align: center;
@@ -272,3 +276,12 @@ a.secondary-color:hover {
 	height: auto;
 }
 
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}

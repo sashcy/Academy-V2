@@ -1,13 +1,14 @@
 {% include lang.html %}
+{% assign activePage = page.url %}
 <div class="row">
 	<div class="col">
-		<div class="sidebar-box fill-bg-color">
 		<h3>{{ translate.contributors }}</h3>
-			<ul class="list-group">	
+		<div class="sidebar-left">
+			<ul>	
 			{% for page in site.pages %}
 				{% if page.language == siteLang %}														
 					{% if page.tag == "contributor" %}
-						<li><a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>
+						<li {% if page.url == activePage %}class="selected"{% endif %}><a href="{{ page.url | prepend: SourceUrl }}">{{ page.title }}</a></li>
 					{% endif %}				
 				{% endif %}
 			{% endfor %}
