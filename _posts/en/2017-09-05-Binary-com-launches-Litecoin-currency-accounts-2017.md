@@ -4,7 +4,6 @@ title: "Binary.com launches Litecoin currency accounts"
 language: en
 permalink: /en/Binary-com-launches-Litecoin-currency-accounts-2017/
 excerpt: "Today, we’re excited to announce our latest cryptocurrency account Litecoin (LTC). Last week, we launched Bitcoin (BTC) currency accounts that allow you to fund your account, buy contracts, and collect your payouts ..."
-tags: cryptocurrency
 ---
 Last week, we launched Bitcoin (BTC) currency accounts that allow you to fund your account, buy contracts, and collect your payouts –– all in BTC.
 

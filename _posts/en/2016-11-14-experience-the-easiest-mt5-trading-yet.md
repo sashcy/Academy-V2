@@ -3,10 +3,9 @@ layout: post
 title: "Experience the Easiest MT5 Trading Yet"
 language: en
 permalink: /en/experience-the-easiest-mt5-trading-yet/
-tags: mt5
-excerpt: "Place your orders anytime, anywhere and benefit from our highly competitive spreads with zero commission..."
+excerpt: "The MetaTrader 5 (MT5) mobile app is here to help. Place your orders anytime, anywhere and benefit from our highly competitive spreads with zero commission..."
 ---
-<p class="p--action"><img src="{{ 'assets//images/mt5-2.jpg' | prepend: SourceUrl }}" alt="Experience the Easiest MT5 Trading Yet"></p>
+<p class="p--action"><img src="{{site.baseurl }}/images/mt5-2.jpg" alt="Experience the Easiest MT5 Trading Yet"></p>
 
 Living a busy lifestyle that’s keeping you on the move? The MetaTrader 5 (MT5) mobile app is here to help. Place your orders anytime, anywhere and benefit from our highly competitive spreads with zero commission.
 

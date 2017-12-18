@@ -2,7 +2,6 @@
 layout: post
 title: "Trade Ethereum and Litecoin on MT5"
 language: en
-tags: [cryptocurrency, mt5]
 permalink: /en/Trade-Ethereum-and-Litecoin-on-MT5/
 excerpt: "We’re extremely excited to announce two new additions to our cryptocurrency product range: Ethereum (ETH/USD) and Litecoin (LTC/USD)..."
 ---
@@ -114,7 +113,7 @@ Bitcoin, Ethereum, and Litecoin are some of the most popular cryptocurrencies ar
 		</tr>
 		<tr>
 			<td><strong>Minimum volume</strong></td>
-			<td>1</td>
+			<td>0.01</td>
 			<td>0.1</td>
 			<td>1</td>
 		</tr>

@@ -3,7 +3,6 @@ layout: post
 title: "Binary.com launches Bitcoin Cash accounts"
 language: en
 permalink: /en/Binary-com-launches-Bitcoin-Cash-accounts/
-tags: cryptocurrency
 excerpt: "We are pleased to announce the launch of our latest cryptocurrency denominated account, Bitcoin Cash (BCH). Create your free BCH denominated account now and you can deposit, trade, and withdraw your payouts in BCH..."
 ---
 We are pleased to announce the launch of our latest cryptocurrency denominated account, Bitcoin Cash (BCH).
