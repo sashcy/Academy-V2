@@ -94,8 +94,8 @@ img {
 
 .right-border {
     border-right: 1px solid #dedede;
-}	
-	
+}
+
 .border-down {
     border-bottom: 1px solid #dedede;
 }
@@ -201,8 +201,8 @@ a.secondary-color:hover {
 }
 
 .unbounce--confirmation iframe {
-	border:none; 
-	margin:0; 
+	border:none;
+	margin:0;
 	padding:0;
 }
 
@@ -218,4 +218,17 @@ a.secondary-color:hover {
 	flex: 1 0 auto;
 	flex-direction: column;
 	}
+}
+
+/* Headlines */
+.headlines ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headlines ul li {
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
 }

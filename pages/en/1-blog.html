@@ -8,31 +8,54 @@ category: blog
 ---
 {% include geturl.html %}
 <div class="separator-xl"></div>
-<div class="container">
-	<div class="flex-row row">
-	{% assign engPosts = site.posts | where: "language", "en" %}
-	{% for post in engPosts limit:18%}
-		<div class="col-sm-4">
-			<div class="card thumbnail bottom-30 fill-bg-color">				
-				<div class="caption">
-				<p class="font-s">{{ post.date | date: "%d.%m.%Y" }}</p>
-					<a href="{{ post.url | prepend: SourceUrl }}"><h3>{{ post.title }}</h3></a>
-					<p class="flex-text">{{ post.excerpt | truncatewords:20 }}</p>
-					<p><a href="{{ post.url | prepend: SourceUrl }}" class="button"><span>Read more</span></a></p>
+<div class="container fill-bg-color">
+	<div class="row ">
+		<div class="col-12 no-gutters centered">
+			<img src="{{ '/assets/images/header.jpg' | prepend: SourceUrl }}">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 headlines">
+			<h2>Headlines</h2>
+			<ul>
+					<li><a href="">Binary.com ICO goes live</a><br>We’re excited to inform you that our ICO has been officially launched...</li>
+					<div class="separator-line-thin-gray"></div>
+					<li><a href="">Our ICO launch date is confirmed. Here’s what you need to do</a><br>Our ICO is the result of 18 years of hard work to make Binary.com an award-winning trading platform...</li>
+					<div class="separator-line-thin-gray"></div>
+					<li><a href="">Token sale ends on 25th December</a><br>The auction is about to come to an end soon. Have you participated yet...</li>
+			</ul>
+		</div>
+		<div class="col-md-9">
+			<h2>Related News</h2>
+			<div class="flex-row row">
+				<div class="col-md-4 right-border">
+					<div class="card thumbnail">
+						<img src="{{ '/assets/images/home/academy_whatsnew_img1.png' | prepend: SourceUrl }}">
+						<div class="caption">
+							<h3>Equity research report by Lykke Accelerator</h3>
+							<p class="flex-text">An overview of our company structure, financial performance, forecasts of future revenue, and more.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 right-border">
+					<div class="card thumbnail">
+						<img src="{{ '/assets/images/home/academy_whatsnew_img2.png' | prepend: SourceUrl }}">
+						<div class="caption">
+							<h3>Research report by India-based TokenRating</h3>
+							<p class="flex-text">This report analyses the structure of our token offering and the potential impact of our convertible tokens with dividend rights.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card thumbnail">
+						<img src="{{ '/assets/images/home/academy_whatsnew_img3.png' | prepend: SourceUrl }}">
+						<div class="caption">
+							<h3>Value analysis by experienced investor, Nishant Sah</h3>
+							<p class="flex-text">Studies the risk, benefits, and valuations of our token offering based on our past and projected growth.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	{% endfor %}	
 	</div>
 </div>
-<div class="separator-xl"></div>
-<div class="container">
-	<div class="row">	
-		<div class="col center-text">
-			<h2>Open an account now</h2>
-			<p>Experience the world’s financial markets through binary options –– know what you stand to win or lose every time before you purchase a contract. Start your journey with a risk-free virtual account.</p>
-			<p><a class="button" href="https://www.binary.com/en/home.html?utm_source=blog&utm_medium=social&utm_campaign=oct2016_sidebar_openafreeaccount_en"><span>Create account</span></a></p>
-		</div>
-	</div>
-</div>
-<div class="separator-xl"></div>
