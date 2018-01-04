@@ -36,7 +36,54 @@
 
 /* Blog */
 
+.col-category {
+    background-color: #e98024;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: table;
+    margin: 5px 0 -10px;
+    padding: 5px 10px;
+    
+}
 
+.col-category-caption {
+    background-color: #e98024;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: table;
+    margin: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.col-category-caption-inverse {
+    background-color: #ffffff !important;
+    color: #e98024;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: table;
+    margin: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.col-date {
+    color: #c2c2c2;
+    display: table;
+    margin: -20px 0 -10px;
+    margin-top: -20px;
+    
+}
+
+.col-date-default {
+    color: #c2c2c2;
+    display: table;
+    margin: 10px 0 -10px;
+}
 
 
 /* MT5 */
