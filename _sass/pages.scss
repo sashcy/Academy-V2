@@ -36,6 +36,37 @@
 
 /* Blog */
 
+.header-banner-caption {
+    display: table;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+.header-banner-caption-title {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 42px;
+    text-align: right;
+}
+
+.header-banner-caption-subtitle {
+    padding: 20px;
+    font-size: 28px;
+    text-align: right;
+}
+
+.header-banner-caption-cta {
+    display: table;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 .col-category {
     background-color: #e98024;
     color: #fff;
@@ -84,6 +115,7 @@
     display: table;
     margin: 10px 0 -10px;
 }
+
 
 
 /* MT5 */
