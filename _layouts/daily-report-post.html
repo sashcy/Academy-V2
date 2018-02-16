@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+{% include lang.html %}
+<html lang="{{ siteLang }}">
+  {% include head.html %}
+    {% include header.html %}	
+		<main class="page-content" aria-label="Content" id="champion-container">
+			<div class="wrapper" id="champion-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md">
+							<h1>Daily Report</h1>							
+						</div>
+					</div>
+					<div class="LC-main">
+						<div class="row">						
+								<div class="col-md-3">
+										{% include sidebar/daily-report-list.html %}
+								</div>
+								<div class="col-md-9">
+									<div class="LC-content">
+										<h1>{{ page.title }}</h1>
+										<p class="post--date">{{ page.date | date: "%d.%m.%Y" }}</p>
+										<div class="rte">{{ content }}</div>
+									</div>
+									<p class="font-xs"><i>Disclaimer: This financial market report is intended for educational and information purposes only. It should not be construed as investment or financial advice and you should not rely on any of its content to make or refrain from making any investment decisions. The views expressed in this report are those of the author and do not necessarily reflect the views or position of ChampionFX. ChampionFX accepts no liability whatsoever for any losses incurred by users in their trading. Binary options trading may incur losses as well as gains.</i></p>
+								</div>							
+						</div>	
+					</div>
+				</div>
+			</div>
+		</main>	
+     {% include footer.html %}  
+    </body>
+</html>

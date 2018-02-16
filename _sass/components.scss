@@ -145,6 +145,7 @@
     margin-left: auto;
     margin-right: auto;	
     width: 150px;
+    max-width: 100%;
     height: 150px;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,7 +156,8 @@
 }
 
 .icon-cryptocurrency {
-    background: url(../icons/cryptocurrencies-wh.svg);
+    background: url(../icons/ctc_icon-2.svg);
+    background-repeat: no-repeat;
 }
 
 .icon-analysis {

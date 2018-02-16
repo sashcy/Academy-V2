@@ -35,6 +35,7 @@ $(function() {
                 $(xml).find('item').each(function(idx) {
                     var title = $(this).find('title:first').text().replace(/regentmarkets\d.*$/, ''),
                         pubDate = $(this).find('pubDate').text().replace(/\+0000$/, 'GMT');
+                    var dated = $(this).find('pubDate').text();
                     var post = $(this).find('content\\:encoded').text();
                     if (!post) {
                         post = $(this).find('encoded').text();
@@ -44,7 +45,7 @@ $(function() {
                         value: idx,
                         text: title
                     }));
-                    $('<div id="report-' + idx + '" class="single-report">').append('<h2>' + title + '</h2>').append('<p>' + post + '</p>').toggle(idx === 0).appendTo('.daily-report');
+                    $('<div id="report-' + idx + '" class="single-report">').append('<h2>' + title + '</h2>').append('<p>' + dated + '</p>').append('<p>' + post + '</p>').toggle(idx === 0).appendTo('.daily-report');
                 });
             },
             jsonp: 'jsonp'

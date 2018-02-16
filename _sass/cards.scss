@@ -40,9 +40,25 @@
 .card {
 	border-radius: 3px;
 	margin-bottom: 30px;
+    /* box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.01), 0 2px 20px 0 rgba(0, 0, 0, 0.12); */
 }
 .card .caption {
 	padding: 10px 20px 0 20px;
+}
+
+.card-date-top {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    padding: 10px;
+    background-color: #e98024;
+    color: #fff;
+}
+
+.card-date-auto {
+    padding: 10px;
+    background-color: #e98024;
+    color: #fff;
 }
 
 @media only screen and (max-width : 576px) {
@@ -110,4 +126,35 @@
 .no-gutters {
   padding-right: 0;
   padding-left: 0;
+}
+
+/* Small Gutters */
+.row.sm-gutters {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row.sm-gutters > [class^="col-"],
+.row.sm-gutters > [class*=" col-"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.sm-gutters {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.img-zoom {
+  position: relative;
+  overflow: hidden;
+}
+.img-zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.img-zoom:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
